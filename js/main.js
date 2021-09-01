@@ -52,8 +52,8 @@
 
     
     function contador () {
-        const contadorPrueba = intentos;
-        if (contadorPrueba === 1) {
+        const contadorPrueba = intentos.value;
+        if (contadorPrueba === +1) {
         intentos.innerHTML = 'contadorPrueba';
          }
       }
