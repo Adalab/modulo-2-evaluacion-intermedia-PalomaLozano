@@ -4,28 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Adivina el número</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <main class="container">
+    <header>
       <h1>ADIVINA EL NÚMERO</h1>
-      <form>
-        <label class="">Introduce aquí tú número:</label>
+    </header>
 
-        <input type="text" value="" class="js_numberX" />
+    <main class="container">
+      <form action="" class="js-form">
+        <label for="number">Introduce aquí tú número:</label>
 
-        <input type="submit" value="Prueba" class="js_button" />
+        <input type="number" name="number" id="number" class="js_number" />
+
+        <button class="js_button">Prueba</button>
+
+        <p class="js_clue">Pista: Escribe el número y dale a Prueba"</p>
 
         <input
-          class="js_clue"
+          readonly
+          class="js_chances"
           type="text"
-          value="Pista: Escribe el número y dale a Prueba"
+          value="Número de intentos:0"
         />
-
-        <input class="js_chances" type="text" value="Número de intentos" />
       </form>
     </main>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
