@@ -4,29 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adivina el número</title>
+    <title>Guess the number</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <h1>ADIVINA EL NÚMERO</h1>
+      <h1 class="header">Guess the number</h1>
     </header>
 
     <main class="container">
       <form action="" class="js-form">
-        <label for="number">Introduce aquí tú número:</label>
+        <label for="number">Put here your number:</label>
 
-        <input type="number" name="number" id="number" class="js_number" />
+        <input type="number" name="number" id="number" class="js_number type" />
 
-        <button class="js_button">Prueba</button>
+        <button class="js_button color">Try</button>
 
-        <p class="js_clue">Pista: Escribe el número y dale a Prueba"</p>
+        <p class="js_clue">Clue: Write the number and click "Try"</p>
 
         <input
           readonly
-          class="js_chances"
+          class="js_chances type"
           type="text"
-          value="Número de intentos:0"
+          value="Number of attemps:0"
         />
       </form>
     </main>

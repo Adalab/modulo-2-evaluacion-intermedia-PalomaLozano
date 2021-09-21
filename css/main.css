@@ -1,5 +1,37 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
+}
+
+.header {
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(240, 195, 136);
+}
 .container {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 500px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: cornsilk;
+}
+
+.type {
+  font-family: 'Press Start 2P', cursive;
+  width: 300px;
+}
+.randomColor {
+  margin-top: 20px;
+}
+
+.color {
+  font-family: 'Press Start 2P', cursive;
+  color: antiquewhite;
+  background-color: rgb(182, 141, 87);
+  border-radius: 5px;
 }
